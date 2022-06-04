@@ -183,14 +183,15 @@
     "webpack-merge": "^5.8.0"
   },
   "build": {
-    "productName": "ElectronReact",
+    "productName": "You-re-just-projecting",
     "appId": "org.erb.ElectronReact",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
       "dist",
       "node_modules",
-      "package.json"
+      "package.json",
+      "static/icon.png"
     ],
     "afterSign": ".erb/scripts/notarize.js",
     "mac": {
